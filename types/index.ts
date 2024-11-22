@@ -1,3 +1,5 @@
+import { Models } from "node-appwrite";
+
 export type FileType = "document" | "image" | "video" | "audio" | "other";
 
 export interface ActionType {
@@ -40,26 +42,26 @@ export interface DeleteFileProps {
   path: string;
 }
 
-declare interface FileUploaderProps {
+export interface FileUploaderProps {
   ownerId: string;
   accountId: string;
   className?: string;
 }
 
-declare interface MobileNavigationProps {
+export interface MobileNavigationProps {
   ownerId: string;
   accountId: string;
   fullName: string;
   avatar: string;
   email: string;
 }
-declare interface SidebarProps {
+export interface SidebarProps {
   fullName: string;
   avatar: string;
   email: string;
 }
 
-declare interface ThumbnailProps {
+export interface ThumbnailProps {
   type: string;
   extension: string;
   url: string;
