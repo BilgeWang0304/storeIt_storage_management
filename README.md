@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## StoreIt - Storage Management and File Sharing Platform
 
-## Getting Started
+See the demo here: https://storeit1.vercel.app/
 
-First, run the development server:
+### Introduction
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A modern storage management and file-sharing platform designed for effortless file uploading, organization, and sharing. Built with Next.js 15 and the Appwrite Node SDK, it leverages advanced features to deliver seamless and efficient file management.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img width="1112" alt="1" src="https://github.com/user-attachments/assets/1af29a1a-ffc9-4af7-a241-099ed501a91b">
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Features
 
-## Learn More
+#### ➡️ User Authentication with Appwrite: 
+Integrate seamless signup, login, and logout functionality using Appwrite's authentication system for secure access.
 
-To learn more about Next.js, take a look at the following resources:
+#### ➡️ File Uploads: 
+Upload various file types, including documents, images, videos, and audio, effortlessly to ensure secure data storage.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### ➡️ View and Manage Files: 
+Browse through uploaded files stored in Appwrite storage, open them in a new tab, rename files, or delete them as needed.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+#### ➡️ Download Files: 
+Download uploaded files instantly for quick access to important documents and content.
 
-## Deploy on Vercel
+#### ➡️ File Sharing: 
+Share uploaded files easily with others, facilitating collaboration and convenient access to critical information.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### ➡️ Dashboard: 
+Stay informed with a dynamic dashboard displaying total and consumed storage, recent uploads, and a summary of files categorized by type.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#### ➡️ Global Search: 
+Quickly locate files and shared content across the platform with a powerful global search feature.
+
+#### ➡️ Sorting Options: 
+Efficiently organize files by sorting them based on date, name, or size for better file management.
+
+#### ➡️ Modern Responsive Design: 
+Enjoy a clean, minimalist, and responsive UI optimized for usability across all devices.
